@@ -8,10 +8,13 @@ const Navbar = () => {
       <nav className="navbar">
         <div className="navbar-logo">MyLogo</div>
         <ul className="navbar-links">
+
           <li><Link to="/">Home</Link></li>
           <li><Link to="/about">About</Link></li>
           <li><Link to="/services">Services</Link></li>
           <li><Link to="/contact">Contact</Link></li>
+          <li><Link to="/login" ><button className='login'>Login</button></Link></li>
+          <li><Link to="/regester" ><button className='regester' >Regester</button></Link></li>
         </ul>
       </nav>
     </Router>

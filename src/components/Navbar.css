@@ -34,4 +34,18 @@
   .navbar-links a:hover {
     color: #ffeb3b; /* Lighter shade of yellow for hover effect */
   }
-  
+  .regester{
+    width: fit-content;
+    height: auto;
+    border-radius: 5%;
+    border-color: #ffeb3b;
+    background-color: #ffeb3b;
+  }
+  .login{
+    height: fit-content;
+    font-size: large;
+    box-shadow: none;
+    color: #ffeb3b;
+    border-color: transparent;
+    background-color: transparent;
+  }
